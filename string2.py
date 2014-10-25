@@ -49,7 +49,7 @@ def not_bad(s):
 #  a-front + b-front + a-back + b-back
 def front_back(a, b):
   # +++your code here+++
-  return
+  return a[:abs((len(a)+1)/2)] + b[:abs((len(b)+1)/2)] + a[abs((len(a)+1)/2):] + b[abs((len(b)+1)/2):]
 
 
 # Simple provided test() function used in main() to print
